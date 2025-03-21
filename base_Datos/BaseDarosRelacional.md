@@ -42,9 +42,33 @@ Servicio aws en la nube, servicio que administra la base de datos relacionales
 
 
 ## Conectarse al mysql workbrench a traves de ssh con una ec2 como bastion
+- evento
 Para conectarse a MYSQL WORKBENCH A TRAVES DE SSH, HAY QUE PRIMERO, primero crear la RDS, todo bien como explique arriba, entonces, debemos tener nuestra VPC, el cual su ip es 192.168.0.0/16 (Puede ser cualquiera) dentro de esa vpc tener dos subnet en AZ distintos, para poder crear la bd, ahora el security group de la RDS, la podemos crear automaticamente, asi se crea el mysql/aurora, puerto 3306, y el ip es el de la subred, 192.168.0.0/16 luego, creamos la ec2 bastion para que sea puente de la base de datos en la workbench de la maquina local, TOMAR EN CUENTA LAS AZ Y LOS RDS GROUPS
+---
+
+## Procedimiento almacenados
+Caracteristicas
+- Se puede reutilizar
+- Mejora el rendimiento
+- Acepta parametros de entrada
+
+Ejemplo:
+```sql
+
+DELIMITER//
+
+CREATE PROCEDURE nombre_procedimient (IN param1 varchar(8), out param2 varchar(8))
+  begin
+      --intrucciones sql
+  END
+DELIMETER//
+```
 
 ## Puntos conceptuales
 - manejador de respaldo automatico por ejemplo en aws
 - Los objetos tambien se pueden giardar en la base de datos
-- 
+
+## Conectores de base de datos
+se utiliza varios conectores, para eso un ejemplo es el mysql-conector
+
+
