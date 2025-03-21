@@ -42,4 +42,7 @@ maneja grandes volumen de datos
 - indices: se tienen indices locales secundarios
 - recomendable para almacenar datos de usuario como por ejemplo, marcadores. score, datos cambiables en poco tiempo
 
-  
+- Colecciones de datoa: se llaman tablas
+- Las tuplas se llaman Items
+- atributos es un dato individual de un item
+- clave primaria, identificador uncio para un item dentro de una tabla
