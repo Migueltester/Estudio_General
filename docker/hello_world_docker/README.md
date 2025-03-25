@@ -60,4 +60,7 @@ sudo docker hello world
 docker run -d -p 80:80 nginx
 ```
 
+## Practica
 
+1. intenta hacer un volumen persistente de docker del postgress con la info del lab de redes
+2. 
