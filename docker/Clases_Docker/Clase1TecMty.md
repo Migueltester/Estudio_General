@@ -37,4 +37,28 @@ Puerto 2376 para SSL
 # Comandos
 ## Contexto 
 docker context create <nombre_Del_Contexto>
+---
+# Infraestructura como codigo
+### La infraestructura como codigo es la clave de la practica DevOps
+La infraestructura como codigo es una de las metodologias devop, y un versionamiento por un modelo descriptivo para poder desplegar.
+Hay una clara diferencia entre las distintas infraestructuras como codigo, y a sea terraform o cualquier otro desplegador como cloudformation, igualmente es distinto segun la nube que se utiliza, lamentablemente no es un codigo generico, si no que varia por nube.
+
+# CloudFormation Stacks
+### Son templates de stacks
+
+
+## Creacion de stack a traves de S3
+Se sube a un s3 y se desplega
+
+## Actualizacion
+Ya esta desplegado y te encargas de actualizarlo
+## Stackset
+Son todos los codigos stacks que se han realizado
+## Generador de IAC 
+Son plantillas de Cloudformation ya hechas
+
+---t
+# DevOps
+
+
 
